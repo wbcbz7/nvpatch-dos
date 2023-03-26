@@ -42,7 +42,7 @@ uses RIVA TNT2 support code, may have better GPU compatibility than SDD 6.53
 Known limitations:
 
 - VRAM size is usually limited to 16 MB
-- unlike 6.53, doesn't provide some low-resolutions VESA modes (namely, 320x200, 320x400 and 320x480)
+- unlike 6.53, doesn't provide certain low-resolutions VESA modes (namely, 320x200, 320x400 and 320x480). Since 320x200 VESA is used by some DOS demos and games, you have to use native NV VESA BIOS or SDD 6.53 for those apps.
 
 Patch usage:
 
@@ -59,11 +59,11 @@ Personally, I would recommend SDD 6.53, and only if it does not work properly, t
 Tested and working (more or less) fine on:
 
  * RIVA TNT 16 MB AGP (6.7 works out of the box, 6.53 needs patching)
- * RIVA TNT2 M64 16 MB and 32 MB, both AGP (strangely, while 6.7 declares TNT2 support, it does work with TNT2 Ultra only, judging by PCI Device ID)
- * Vanta 16 MB and  Vanta LT 8 MB, both AGP
+ * RIVA TNT2 M64 16 MB and 32 MB, both AGP (strangely, while 6.7 declares TNT2 support, it does work only with TNT2 Ultra, judging by PCI Device ID)
+ * Vanta 16 MB and Vanta LT 8 MB, both AGP
  * GeForce 2 MX200 32MB and MX400 64 MB, both AGP
  * GeForce 4 MX440 64 MB AGP
- * GeForce FX5200 and FX5500, both 128MB AGP (the latter has the infamous broken VBE3.0 custom refresh rate support in it's video BIOS, and it works again with SDD running)
+ * GeForce FX5200 and FX5500, both 128MB AGP (the latter has the infamous broken VBE3.0 custom refresh rate support in it's video BIOS, and it works again with SDD)
 
 Does not work on:
 
@@ -73,7 +73,7 @@ Does not work on:
 
 ### Windows 3.1 Display Driver
 
-NOTE: unfinished, still broken, moreover, it's buggy even on a TNT itself (fonts corruption, DCI not working, etc.)
+NOTE: unfinished, still broken, moreover, it's buggy even on a TNT itself (fonts corruption, DCI not working, etc.). basically you have to patch NV4VDD.386 file from driver package, then install the drivers as usual.
 
 
 
