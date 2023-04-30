@@ -34,6 +34,7 @@ Patch usage:
 3. If your graphics card has more than 8 MB of VRAM run `UVCONFIG.EXE -m8912`, if everything is OK, run `CONFIG.EXE -m8192`. Else, run `UVCONFIG.EXE` and `CONFIG.EXE` without any command line parameters. If both runs succeed, then SDD is patched and configured properly.
 4. Run `UNIVBE.EXE`
 5. Run any VESA application (`VBETEST` from SDD package is a perfect match :)
+6. (optional) Run `UNICENTR.EXE` and adjust screen position for VESA modes
 
 #### SDD 6.7
 
@@ -51,6 +52,7 @@ Patch usage:
 3. Run `UVCONFIG.EXE`, if it succeeds, then SDD is patched and configured properly.
 4. Run `UNIVBE.EXE`
 5. Run your favorite VESA application :)
+6. (optional) Run `UNICENTR.EXE` and adjust screen position for VESA modes
 
 Personally, I would recommend SDD 6.53, and only if it does not work properly, then try 6.7
 
@@ -84,5 +86,3 @@ Install Watcom C/C++ 1.9 or higher, run `make`, grab `NVPATCH.EXE`, done :)
 ### contact?
 
 email: wbcbz7.at(at)gmail.com // discord: wbcbz7#3519 // telegram: t.me/wbcbz7
-
-i also have a VOGONS account, but it was banned due to email check failure, and i still can't restore it -_-

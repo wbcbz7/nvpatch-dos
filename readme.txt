@@ -58,6 +58,7 @@
     then SDD is patched and configured properly.
  4. Run `UNIVBE.EXE`
  5. Run any VESA application (`VBETEST` from SDD package is a perfect match :)
+ 6. (optional) Run `UNICENTR.EXE` and adjust screen position for VESA modes
 
  #### SDD 6.7
 
@@ -79,6 +80,7 @@
     properly.
  4. Run `UNIVBE.EXE`
  5. Run your favorite VESA application :)
+ 6. (optional) Run `UNICENTR.EXE` and adjust screen position for VESA modes
 
  Personally, I would recommend SDD 6.53, and only if it does not work properly,
  then try 6.7
@@ -115,6 +117,3 @@ Does not work on:
  ### contact?
 
  email: wbcbz7.at(.)gmail.com // discord: wbcbz7#3519 // telegram: t.me/wbcbz7
-
- i also have a VOGONS account, but it was banned due to email check failure,
- and i still can't restore it -_-
